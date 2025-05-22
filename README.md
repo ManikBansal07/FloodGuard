@@ -1,79 +1,78 @@
 # FloodGuard
 
-FloodGuard is a comprehensive flood monitoring and prediction system that helps communities stay safe and prepared for potential flood risks. The system uses advanced AI to predict and monitor flood conditions in real-time.
+FloodGuard is a comprehensive flood prediction and management system that helps communities prepare for and respond to flood events.
 
 ## Features
 
-- Real-time flood monitoring
-- AI-powered flood risk predictions
-- Community-based flood reporting
-- Interactive map visualization
-- User authentication and role-based access
-- Admin dashboard for report management
+- Real-time flood predictions using machine learning
+- User authentication and authorization
+- Location-based flood risk assessment
+- Historical flood data analysis
+- Automated alerts and notifications
+- RESTful API for integration
 
 ## Tech Stack
 
-- **Frontend**: React + TypeScript + Tailwind CSS
-- **Backend**: Spring Boot (Java)
-- **ML Service**: Python (Flask)
-- **Database**: PostgreSQL
-- **Authentication**: JWT
+- Backend: Spring Boot 3.2.3
+- Database: PostgreSQL
+- ML Service: Python with FastAPI
+- Security: JWT Authentication
+- Monitoring: Spring Boot Actuator, Prometheus
+- Caching: Caffeine
+- CI/CD: GitHub Actions
 
 ## Prerequisites
 
-- Java 17
-- Node.js 16+
-- Python 3.8+
-- PostgreSQL
+- Java 17 or higher
 - Maven
+- PostgreSQL
+- Python 3.8+ (for ML service)
 
-## Setup Instructions
+## Getting Started
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/floodguard.git
-   cd floodguard
-   ```
+```bash
+git clone https://github.com/yourusername/floodguard.git
+cd floodguard
+```
 
-2. Set up the backend:
-   ```bash
-   cd backend
-   mvn clean install
-   ```
+2. Set up the database:
+```bash
+# Create PostgreSQL database
+createdb floodguard
+```
 
-3. Set up the frontend:
-   ```bash
-   cd frontend
-   npm install
-   ```
+3. Configure the application:
+- Copy `application.properties` to `application-local.properties`
+- Update database credentials and other configurations
 
-4. Set up the ML service:
-   ```bash
-   cd ml-service
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
+4. Build and run the backend:
+```bash
+cd backend
+./mvnw spring-boot:run
+```
 
-5. Configure environment variables:
-   - Copy `.env.example` to `.env` in each service directory
-   - Update the configuration values as needed
+5. Set up and run the ML service:
+```bash
+cd ml-service
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+python main.py
+```
 
-6. Start the application:
-   ```bash
-   ./run.sh
-   ```
+## API Documentation
 
-## Accessing the Application
+Once the application is running, you can access the API documentation at:
+- Swagger UI: http://localhost:8080/api/swagger-ui.html
+- OpenAPI Spec: http://localhost:8080/api/v3/api-docs
 
-- Frontend: http://localhost:5173
-- Backend: http://localhost:8080
-- ML Service: http://localhost:5000
+## Monitoring
 
-## Test Credentials
-
-- Email: test@floodguard.com
-- Password: Test@123
+The application exposes several monitoring endpoints:
+- Health check: http://localhost:8080/api/actuator/health
+- Metrics: http://localhost:8080/api/actuator/metrics
+- Prometheus: http://localhost:8080/api/actuator/prometheus
 
 ## Contributing
 

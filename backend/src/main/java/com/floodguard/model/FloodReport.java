@@ -1,7 +1,6 @@
 package com.floodguard.model;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 import java.time.LocalDateTime;
 
@@ -14,27 +13,40 @@ public class FloodReport {
     private Long id;
 
     @ManyToOne
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "reporter_id", nullable = false)
     private User reporter;
 
-    @Embedded
+    @ManyToOne
+    @JoinColumn(name = "location_id", nullable = false)
     private Location location;
 
-    @NotBlank
+    @Column(nullable = false)
     private String description;
 
-    private String imageUrl;
-
     @Enumerated(EnumType.STRING)
-    private ReportStatus status = ReportStatus.PENDING;
+    @Column(nullable = false)
+    private ReportStatus status;
 
-    private LocalDateTime reportedAt = LocalDateTime.now();
+    @Column(name = "severity_level")
+    private Integer severity;
 
-    private LocalDateTime verifiedAt;
+    @Column(name = "water_level")
+    private Double waterLevel;
 
-    @ManyToOne
-    @JoinColumn(name = "verified_by")
-    private User verifiedBy;
+    @Column(name = "created_at")
+    private LocalDateTime createdAt;
 
-    private String verificationNotes;
+    @Column(name = "updated_at")
+    private LocalDateTime updatedAt;
+
+    @PrePersist
+    protected void onCreate() {
+        createdAt = LocalDateTime.now();
+        updatedAt = LocalDateTime.now();
+    }
+
+    @PreUpdate
+    protected void onUpdate() {
+        updatedAt = LocalDateTime.now();
+    }
 } 

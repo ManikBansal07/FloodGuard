@@ -3,6 +3,7 @@ package com.floodguard.model;
 import jakarta.persistence.*;
 import lombok.Data;
 import java.time.LocalDateTime;
+import java.util.Map;
 
 @Data
 @Entity
@@ -12,25 +13,40 @@ public class FloodPrediction {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Embedded
+    @ManyToOne
+    @JoinColumn(name = "location_id", nullable = false)
     private Location location;
 
-    private Double riskLevel; // 0.0 to 1.0
+    @Column(name = "risk_score", nullable = false)
+    private Double riskScore;
 
     @Enumerated(EnumType.STRING)
+    @Column(name = "risk_category", nullable = false)
     private RiskCategory riskCategory;
 
-    private LocalDateTime predictionTime;
+    @Column(nullable = false)
+    private Double confidence;
 
-    private LocalDateTime validUntil;
+    @ElementCollection
+    @CollectionTable(name = "prediction_factors")
+    @MapKeyColumn(name = "factor_name")
+    @Column(name = "factor_value")
+    private Map<String, Double> factors;
 
-    private Double estimatedPropertyDamage;
+    @Column(name = "created_at")
+    private LocalDateTime createdAt;
 
-    private Double estimatedBusinessInterruption;
+    @Column(name = "updated_at")
+    private LocalDateTime updatedAt;
 
-    private Double estimatedInsurancePayout;
+    @PrePersist
+    protected void onCreate() {
+        createdAt = LocalDateTime.now();
+        updatedAt = LocalDateTime.now();
+    }
 
-    private String weatherData; // JSON string of weather conditions
-
-    private String modelVersion;
+    @PreUpdate
+    protected void onUpdate() {
+        updatedAt = LocalDateTime.now();
+    }
 } 
