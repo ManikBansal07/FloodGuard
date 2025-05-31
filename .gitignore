@@ -9,6 +9,8 @@ node_modules/
 # Production
 /build
 /dist
+/target
+*.jar
 
 # Environment files
 .env
@@ -30,4 +32,12 @@ yarn-error.log*
 
 # OS
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Cache
+.cache/
+*.pack
+
+# Cache
+.cache/
+*.pack 
