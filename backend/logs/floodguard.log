@@ -1,0 +1,969 @@
+2025-06-01 00:00:00,849 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /reports?page=0&size=10
+2025-06-01 00:00:00,892 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /weather/flood-risk?latitude=30.76503456499999&longitude=76.78103255833327
+2025-06-01 00:00:00,893 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /weather/flood-risk?latitude=30.76503456499999&longitude=76.78103255833327
+2025-06-01 00:00:00,919 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /weather/flood-risk?latitude=30.76503456499999&longitude=76.78103255833327
+2025-06-01 00:00:00,938 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-8] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:00:00,938 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-10] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:00:00,955 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /reports?page=0&size=10
+2025-06-01 00:00:00,955 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /weather/flood-risk?latitude=30.76503456499999&longitude=76.78103255833327
+2025-06-01 00:00:00,962 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /weather/flood-risk?latitude=30.76503456499999&longitude=76.78103255833327
+2025-06-01 00:00:00,963 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /reports?page=0&size=10
+2025-06-01 00:00:00,966 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-6] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:00:00,966 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-4] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:00:00,972 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /reports?page=0&size=10
+2025-06-01 00:00:00,973 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /weather/flood-risk?latitude=30.76503456499999&longitude=76.78103255833327
+2025-06-01 00:00:00,978 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /reports?page=0&size=10
+2025-06-01 00:00:00,980 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-5] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:00:00,983 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /reports?page=0&size=10
+2025-06-01 00:00:00,987 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /reports?page=0&size=10
+2025-06-01 00:00:00,992 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-2] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:00:00,996 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /reports?page=0&size=10
+2025-06-01 00:00:00,999 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /reports?page=0&size=10
+2025-06-01 00:00:01,001 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-9] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:00:01,005 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /reports?page=0&size=10
+2025-06-01 00:00:01,007 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /reports?page=0&size=10
+2025-06-01 00:00:01,009 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-3] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:00:01,012 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /reports?page=0&size=10
+2025-06-01 00:01:37,545 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /reports?page=0&size=10
+2025-06-01 00:01:37,605 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing OPTIONS /weather/flood-risk?latitude=30.76503456499999&longitude=76.78103255833332
+2025-06-01 00:01:37,606 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing OPTIONS /weather/flood-risk?latitude=30.76503456499999&longitude=76.78103255833332
+2025-06-01 00:01:37,650 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /weather/flood-risk?latitude=30.76503456499999&longitude=76.78103255833332
+2025-06-01 00:01:37,663 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-7] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:01:37,663 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-1] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:01:37,677 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /reports?page=0&size=10
+2025-06-01 00:01:37,686 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /reports?page=0&size=10
+2025-06-01 00:01:37,692 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-4] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:01:37,701 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /reports?page=0&size=10
+2025-06-01 00:01:37,706 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /reports?page=0&size=10
+2025-06-01 00:01:37,710 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-6] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:01:37,718 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /reports?page=0&size=10
+2025-06-01 00:01:37,720 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /reports?page=0&size=10
+2025-06-01 00:01:37,725 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-5] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:01:37,728 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /weather/flood-risk?latitude=30.76503456499999&longitude=76.78103255833332
+2025-06-01 00:01:37,731 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /reports?page=0&size=10
+2025-06-01 00:01:37,734 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /weather/flood-risk?latitude=30.76503456499999&longitude=76.78103255833332
+2025-06-01 00:01:37,736 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /reports?page=0&size=10
+2025-06-01 00:01:37,737 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-7] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:01:37,742 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-9] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:01:37,743 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /weather/flood-risk?latitude=30.76503456499999&longitude=76.78103255833332
+2025-06-01 00:01:37,750 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /reports?page=0&size=10
+2025-06-01 00:01:37,753 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /reports?page=0&size=10
+2025-06-01 00:01:37,758 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-3] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:01:37,761 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /reports?page=0&size=10
+2025-06-01 00:03:14,070 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /reports?page=0&size=10
+2025-06-01 00:03:14,102 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /weather/flood-risk?latitude=30.76503456499999&longitude=76.78103255833331
+2025-06-01 00:03:14,177 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-10] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:03:14,177 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-8] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:03:14,200 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /weather/flood-risk?latitude=30.76503456499999&longitude=76.78103255833331
+2025-06-01 00:03:14,200 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /reports?page=0&size=10
+2025-06-01 00:03:14,215 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /reports?page=0&size=10
+2025-06-01 00:03:14,215 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /weather/flood-risk?latitude=30.76503456499999&longitude=76.78103255833331
+2025-06-01 00:03:14,219 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-4] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:03:14,219 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-1] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:03:14,232 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /weather/flood-risk?latitude=30.76503456499999&longitude=76.78103255833331
+2025-06-01 00:03:14,232 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /reports?page=0&size=10
+2025-06-01 00:03:14,235 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /reports?page=0&size=10
+2025-06-01 00:03:14,249 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-6] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:03:14,257 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /reports?page=0&size=10
+2025-06-01 00:03:14,260 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /reports?page=0&size=10
+2025-06-01 00:03:14,263 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-2] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:03:14,312 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /reports?page=0&size=10
+2025-06-01 00:03:14,317 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /reports?page=0&size=10
+2025-06-01 00:03:14,321 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-5] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:03:14,324 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /reports?page=0&size=10
+2025-06-01 00:03:14,328 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /reports?page=0&size=10
+2025-06-01 00:03:14,332 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-7] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:03:14,343 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /reports?page=0&size=10
+2025-06-01 00:04:44,769 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /reports?page=0&size=10
+2025-06-01 00:04:44,825 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-9] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:04:44,845 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing OPTIONS /weather/flood-risk?latitude=30.765031360257964&longitude=76.78102661608514
+2025-06-01 00:04:44,846 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing OPTIONS /weather/flood-risk?latitude=30.765031360257964&longitude=76.78102661608514
+2025-06-01 00:04:44,855 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /weather/flood-risk?latitude=30.765031360257964&longitude=76.78102661608514
+2025-06-01 00:04:44,859 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-8] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:04:45,069 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /reports?page=0&size=10
+2025-06-01 00:04:45,069 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /weather/flood-risk?latitude=30.765031360257964&longitude=76.78102661608514
+2025-06-01 00:04:45,087 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /weather/flood-risk?latitude=30.765031360257964&longitude=76.78102661608514
+2025-06-01 00:04:45,091 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /reports?page=0&size=10
+2025-06-01 00:04:45,095 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-4] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:04:45,096 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-1] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:04:45,101 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /reports?page=0&size=10
+2025-06-01 00:04:45,101 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /weather/flood-risk?latitude=30.765031360257964&longitude=76.78102661608514
+2025-06-01 00:04:45,106 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /reports?page=0&size=10
+2025-06-01 00:04:45,113 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-6] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:04:45,119 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /reports?page=0&size=10
+2025-06-01 00:04:45,130 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /reports?page=0&size=10
+2025-06-01 00:04:45,136 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-2] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:04:45,187 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /reports?page=0&size=10
+2025-06-01 00:04:45,244 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /reports?page=0&size=10
+2025-06-01 00:04:45,265 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-5] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:04:45,286 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /reports?page=0&size=10
+2025-06-01 00:04:45,318 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /reports?page=0&size=10
+2025-06-01 00:04:45,363 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-7] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:04:45,398 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /reports?page=0&size=10
+2025-06-01 00:07:58,181 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /reports?page=0&size=10
+2025-06-01 00:07:58,212 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-10] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:07:58,228 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /reports?page=0&size=10
+2025-06-01 00:07:58,239 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /reports?page=0&size=10
+2025-06-01 00:07:58,243 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-3] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:07:58,246 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /reports?page=0&size=10
+2025-06-01 00:07:58,249 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /reports?page=0&size=10
+2025-06-01 00:07:58,252 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-9] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:07:58,255 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /reports?page=0&size=10
+2025-06-01 00:07:58,260 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /reports?page=0&size=10
+2025-06-01 00:07:58,262 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-8] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:07:58,264 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /reports?page=0&size=10
+2025-06-01 00:07:58,266 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /reports?page=0&size=10
+2025-06-01 00:07:58,268 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-4] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:07:58,271 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /reports?page=0&size=10
+2025-06-01 00:07:58,273 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /reports?page=0&size=10
+2025-06-01 00:07:58,275 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-1] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:07:58,279 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /reports?page=0&size=10
+2025-06-01 00:08:04,049 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing OPTIONS /weather/flood-risk?latitude=30.76501783254679&longitude=76.78099681217756
+2025-06-01 00:08:04,049 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /weather/flood-risk?latitude=30.76501783254679&longitude=76.78099681217756
+2025-06-01 00:08:04,054 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /weather/flood-risk?latitude=30.76501783254679&longitude=76.78099681217756
+2025-06-01 00:08:04,060 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-5] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:08:04,064 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /weather/flood-risk?latitude=30.76501783254679&longitude=76.78099681217756
+2025-06-01 00:08:04,067 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /weather/flood-risk?latitude=30.76501783254679&longitude=76.78099681217756
+2025-06-01 00:08:04,070 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-7] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:08:04,073 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /weather/flood-risk?latitude=30.76501783254679&longitude=76.78099681217756
+2025-06-01 00:10:16,164 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /reports?page=0&size=10
+2025-06-01 00:10:16,182 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-10] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:10:16,191 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /reports?page=0&size=10
+2025-06-01 00:10:16,196 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /reports?page=0&size=10
+2025-06-01 00:10:16,199 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-3] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:10:16,205 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /reports?page=0&size=10
+2025-06-01 00:10:16,209 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /reports?page=0&size=10
+2025-06-01 00:10:16,212 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-9] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:10:16,271 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /reports?page=0&size=10
+2025-06-01 00:10:16,275 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing GET /reports?page=0&size=10
+2025-06-01 00:10:16,283 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-8] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:10:16,285 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured GET /reports?page=0&size=10
+2025-06-01 00:10:16,288 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing GET /reports?page=0&size=10
+2025-06-01 00:10:16,291 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-4] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:10:16,295 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured GET /reports?page=0&size=10
+2025-06-01 00:10:16,300 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /reports?page=0&size=10
+2025-06-01 00:10:16,303 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-1] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:10:16,305 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /reports?page=0&size=10
+2025-06-01 00:10:38,396 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /oauth2/authorization/google
+2025-06-01 00:10:38,410 DEBUG o.s.s.w.DefaultRedirectStrategy [http-nio-8080-exec-2] Redirecting to https://accounts.google.com/o/oauth2/v2/auth?response_type=code&client_id=902637526677-ccejqovseh3d34q5gscls4ec42m9ncql.apps.googleusercontent.com&scope=openid%20profile%20email&state=GM6ETb7I_iMpVh-5uIDopbOJ98BnW2hnhjHZ4PIYfGc%3D&redirect_uri=http://localhost:8080/api/login/oauth2/code/google&nonce=zaUpN4sEWIOke4P74Xw3XOC3Eg5qBqxUjm_aFSDu3ck
+2025-06-01 00:10:41,630 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /login/oauth2/code/google?state=GM6ETb7I_iMpVh-5uIDopbOJ98BnW2hnhjHZ4PIYfGc%3D&code=4%2F0AUJR-x7Crer0bx9nxSjeydZUODI5GyxLwM9lITgyrNmx4Ix1Qnx4GilKaMZyqgGgFIJ1JA&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none
+2025-06-01 00:10:42,090 DEBUG o.s.s.w.a.s.AbstractSessionFixationProtectionStrategy [http-nio-8080-exec-5] Changed session id from C3CAB5E789D160A51A9D4021BFD601DE
+2025-06-01 00:10:42,093 DEBUG o.s.s.w.a.AbstractAuthenticationProcessingFilter [http-nio-8080-exec-5] Set SecurityContextHolder to OAuth2AuthenticationToken [Principal=Name: [102564836523702128897], Granted Authorities: [[OIDC_USER, SCOPE_https://www.googleapis.com/auth/userinfo.email, SCOPE_https://www.googleapis.com/auth/userinfo.profile, SCOPE_openid]], User Attributes: [{at_hash=ajM0Cwu8IPLbL7UHYJsnnQ, sub=102564836523702128897, email_verified=true, iss=https://accounts.google.com, given_name=Manik, nonce=zaUpN4sEWIOke4P74Xw3XOC3Eg5qBqxUjm_aFSDu3ck, picture=https://lh3.googleusercontent.com/a/ACg8ocLfk7z42PMw6heor0hBeCsxliitAjX-NyLCMkmPwl9DRlW7KA=s96-c, aud=[902637526677-ccejqovseh3d34q5gscls4ec42m9ncql.apps.googleusercontent.com], azp=902637526677-ccejqovseh3d34q5gscls4ec42m9ncql.apps.googleusercontent.com, name=Manik Bansal, exp=2025-05-31T19:40:42Z, family_name=Bansal, iat=2025-05-31T18:40:42Z, email=bansalmani0714@gmail.com}], Credentials=[PROTECTED], Authenticated=true, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=C3CAB5E789D160A51A9D4021BFD601DE], Granted Authorities=[OIDC_USER, SCOPE_https://www.googleapis.com/auth/userinfo.email, SCOPE_https://www.googleapis.com/auth/userinfo.profile, SCOPE_openid]]
+2025-06-01 00:10:42,093 DEBUG c.f.s.OAuth2SuccessHandler [http-nio-8080-exec-5] OAuth2 user attributes: {at_hash=ajM0Cwu8IPLbL7UHYJsnnQ, sub=102564836523702128897, email_verified=true, iss=https://accounts.google.com, given_name=Manik, nonce=zaUpN4sEWIOke4P74Xw3XOC3Eg5qBqxUjm_aFSDu3ck, picture=https://lh3.googleusercontent.com/a/ACg8ocLfk7z42PMw6heor0hBeCsxliitAjX-NyLCMkmPwl9DRlW7KA=s96-c, aud=[902637526677-ccejqovseh3d34q5gscls4ec42m9ncql.apps.googleusercontent.com], azp=902637526677-ccejqovseh3d34q5gscls4ec42m9ncql.apps.googleusercontent.com, name=Manik Bansal, exp=2025-05-31T19:40:42Z, family_name=Bansal, iat=2025-05-31T18:40:42Z, email=bansalmani0714@gmail.com}
+2025-06-01 00:10:42,104 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-5] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2025-06-01 00:10:42,125 INFO c.f.s.OAuth2Service [http-nio-8080-exec-5] Existing user found and updated: bansalmani0714@gmail.com
+2025-06-01 00:10:42,135 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-5] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2025-06-01 00:10:42,160 INFO c.f.s.OAuth2SuccessHandler [http-nio-8080-exec-5] OAuth2 authentication successful for user: bansalmani0714@gmail.com
+2025-06-01 00:11:39,207 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /reports?page=0&size=10
+2025-06-01 00:11:39,245 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-10] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:11:39,250 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /reports?page=0&size=10
+2025-06-01 00:11:39,261 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /reports?page=0&size=10
+2025-06-01 00:11:39,264 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-3] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:11:39,268 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /reports?page=0&size=10
+2025-06-01 00:11:39,274 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing OPTIONS /weather/flood-risk?latitude=30.76501795526655&longitude=76.78099695922437
+2025-06-01 00:11:39,276 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /reports?page=0&size=10
+2025-06-01 00:11:39,276 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /weather/flood-risk?latitude=30.76501795526655&longitude=76.78099695922437
+2025-06-01 00:11:39,281 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /weather/flood-risk?latitude=30.76501795526655&longitude=76.78099695922437
+2025-06-01 00:11:39,284 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-3] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:11:39,287 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-1] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:11:39,295 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /reports?page=0&size=10
+2025-06-01 00:11:39,306 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /reports?page=0&size=10
+2025-06-01 00:11:39,309 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /weather/flood-risk?latitude=30.76501795526655&longitude=76.78099695922437
+2025-06-01 00:11:39,309 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-3] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:11:39,312 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /reports?page=0&size=10
+2025-06-01 00:11:39,313 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /weather/flood-risk?latitude=30.76501795526655&longitude=76.78099695922437
+2025-06-01 00:11:39,317 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /reports?page=0&size=10
+2025-06-01 00:11:39,318 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-6] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:11:39,320 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-5] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:11:39,323 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /weather/flood-risk?latitude=30.76501795526655&longitude=76.78099695922437
+2025-06-01 00:11:39,323 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /reports?page=0&size=10
+2025-06-01 00:11:39,330 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /reports?page=0&size=10
+2025-06-01 00:11:39,333 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-7] 
+    select
+        u1_0.id,
+        u1_0.email,
+        u1_0.email_verified,
+        u1_0.enabled,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role,
+        u1_0.username 
+    from
+        users u1_0 
+    where
+        u1_0.username=?
+2025-06-01 00:11:39,339 DEBUG o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /reports?page=0&size=10
+2025-06-01 00:12:35,163 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-01 00:12:35,182 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2025-06-01 00:12:35,187 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
