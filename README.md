@@ -1,6 +1,6 @@
 # FloodGuard - Intelligent Flood Monitoring and Prediction System
 
-FloodGuard is a comprehensive flood monitoring and prediction system that combines real-time data analysis, machine learning, and community reporting to provide accurate flood risk assessments and timely alerts..
+FloodGuard is a comprehensive flood monitoring and prediction system that combines real-time data analysis, machine learning, and community reporting to provide accurate flood risk assessments and timely alerts...
 
 ## Features
 
